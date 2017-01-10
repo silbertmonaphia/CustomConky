@@ -4,8 +4,12 @@
 import requests,json
 from pprint import pprint
 
-city='广州'
-ak='Om8o9AoznNvN6H7ofLcMB12Q2td5h0G4'
+with open('config.json') as f:
+    config=f.read()
+    c_json=json.loads(config)
+    city=c_json["city"]
+    ak=c_json["ak"]
+
 baidu_url='http://api.map.baidu.com/telematics/v3/weather?location='+city+'&output=json&ak='+ak
 
 r=requests.get(baidu_url)
