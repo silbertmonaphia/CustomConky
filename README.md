@@ -19,7 +19,7 @@ python3的requests模块
 #安装示范  
 
 ```
-sudo su
+sudo su #切换为root权限
 cd /etc
 git clone git@github.com:silbertmonaphia/CustomConky.git
 rm -r  /etc/conky/
@@ -54,5 +54,5 @@ cat /etc/conky/tianqi.log
 
 ```
 #桌面效果示范
-14inch笔记本屏幕大小显示效果:  
+14英寸笔记本屏幕大小显示效果:  
 ![myconky](./myconky.png) 
