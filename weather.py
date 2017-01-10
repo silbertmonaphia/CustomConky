@@ -4,7 +4,7 @@
 import requests,json
 from pprint import pprint
 
-with open('config.json') as f:
+with open('/etc/conky/config.json') as f:
     config=f.read()
     c_json=json.loads(config)
     city=c_json["city"]
