@@ -21,7 +21,7 @@ python3的requests模块
 ```
 sudo su #切换为root权限
 cd /etc
-git clone git@github.com:silbertmonaphia/CustomConky.git
+git clone https://github.com/silbertmonaphia/CustomConky.git
 rm -r  /etc/conky/
 mv /etc/CustomConky/  /etc/conky/
 cd /etc/conky/
