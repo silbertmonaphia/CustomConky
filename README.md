@@ -54,5 +54,6 @@ cat /etc/conky/tianqi.log
 
 ```
 #桌面效果示范
-14英寸笔记本屏幕大小显示效果:  
+14英寸笔记本屏幕大小显示效果:    
+
 ![myconky](./myconky.png) 
