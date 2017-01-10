@@ -27,7 +27,7 @@ tdat=weather_data[2]
 tdft=weather_data[3]
 
 
-print ('今天',tody['temperature'],tody['weather'],rt.group(0))
+print ('今天',tody['temperature'],tody['weather'],rt.group())
 print (tomm['date'],tomm['temperature'],tomm['weather'])
 print (tdat['date'],tdat['temperature'],tdat['weather'])
 print (tdft['date'],tdft['temperature'],tdft['weather'])
